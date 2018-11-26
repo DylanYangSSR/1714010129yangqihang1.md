@@ -2,7 +2,9 @@
 #include<string.h>
 #include<stdlib.h>
 
-struct file
+<table>
+    <tr>
+        <td>struct file
 {
     int number;
     char name[10];
@@ -16,7 +18,11 @@ struct file
     void find1(struct file T[]);//通过文件名查找
     void find2(struct file T[]);//通过文件号查找
     void add(struct file T[]);//增加
-    void modify(struct file T[]);//删除
+    void modify(struct file T[]);//删除</td>
+    </tr>
+</table>
+
+
 
     int i=0;
     int main()
