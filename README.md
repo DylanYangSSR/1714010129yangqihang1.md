@@ -4,7 +4,8 @@
 
 <table>
     <tr>
-        <td>struct file
+        <td>
+            struct file
 {
     int number;
     char name[10];
@@ -18,9 +19,8 @@
     void find1(struct file T[]);//通过文件名查找
     void find2(struct file T[]);//通过文件号查找
     void add(struct file T[]);//增加
-    void modify(struct file T[]);//删除</td>
-    </tr>
-</table>
+    void modify(struct file T[]);//删除
+
 
 
 
@@ -231,3 +231,6 @@
  }
     printf("删除成功\n");
 }
+        </td>
+    </tr>
+</table>
