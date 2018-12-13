@@ -1,11 +1,8 @@
+           #文件管理系统 
+           
             #include<stdio.h>
             #include<string.h>
             #include<stdlib.h>
-
-            <table>
-              <tr>
-                <td>   
-                struct file
             {
             int number;
             char name[10];
@@ -231,6 +228,4 @@
          }
             printf("删除成功\n");
         }
-                </td>
-            </tr>
-        </table>
+   
